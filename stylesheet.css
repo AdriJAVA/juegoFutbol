@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'segoe ui black';
+}
+
+body{
+    background-color: skyblue;    
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 25px;
+    
+}
+
+#panel{
+    margin: 50px auto;
+    width: 800px;
+    height: 500px;
+    background: url(imagenes/estadio.jpg) no-repeat;
+    background-size: 100% 100%;
+    border: 20px solid brown;
+    border-radius: 5px;
+}
+
+#tiempo{
+    margin: 50px auto;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 5px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+img{
+    position: relative;
+    width: 50px;
+    height: 50px;    
+}
+
