@@ -110,7 +110,7 @@ var futbolGame = (function() {
 
     function checkWinner() {
         if (jugador.id === messi.id) {
-            if (messi.x === cristiano.x && messi.x === cristiano.y) {
+            if (messi.x === cristiano.x && messi.y === cristiano.y) {
                 alert('Has ganado! Has tardado: ' + elapsedTime );
                 reset();
             }       
